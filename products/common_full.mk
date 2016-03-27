@@ -38,7 +38,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OmniJaws \
     Busybox \
-    org.dirtyunicorns.utils
+    org.dirtyunicorns.utils \
+    LockClock
 
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
