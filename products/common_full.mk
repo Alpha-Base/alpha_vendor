@@ -32,8 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/tuesday/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/tuesday/prebuilt/common/app/NovaLauncher.apk:system/priv-app/NovaLauncher.apk
 
-#PRODUCT_COPY_FILES += \
-#    vendor/tuesday/prebuilt/common/bootanimations/BOOTANIMATION.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += \
+    vendor/tuesday/prebuilt/common/bootanimations/BOOTANIMATION.zip:system/media/bootanimation.zip
 
 PRODUCT_PACKAGES += \
     OmniJaws \
